@@ -1,0 +1,10 @@
+[package]
+name = "apple-notes"
+version = "0.1.0"
+edition = "2021"
+description = "Apple 风格记录本后端：Rocket + SQLite"
+
+[dependencies]
+rocket = { version = "0.5", features = ["json"] }
+rocket_cors = "0.6"
+rusqlite = { version = "0.32", features = ["bundled"] }

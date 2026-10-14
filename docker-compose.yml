@@ -1,0 +1,14 @@
+# 本地一键运行（可选便利方式，非必需）
+services:
+  app:
+    image: ghcr.io/java131313/goweb:latest
+    build: .
+    container_name: apple-notes
+    ports:
+      - "8000:8000"
+    volumes:
+      - notes-data:/data
+    restart: unless-stopped
+
+volumes:
+  notes-data:

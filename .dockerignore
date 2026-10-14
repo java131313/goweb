@@ -1,0 +1,11 @@
+.git
+.github
+**/node_modules
+**/dist
+**/target
+**/*.db
+**/*.db-journal
+backend/static
+Dockerfile
+docker-compose.yml
+README.md

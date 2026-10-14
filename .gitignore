@@ -1,0 +1,12 @@
+# Rust
+backend/target/
+*.db
+*.db-journal
+backend/static/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# 系统/编辑器
+.DS_Store
